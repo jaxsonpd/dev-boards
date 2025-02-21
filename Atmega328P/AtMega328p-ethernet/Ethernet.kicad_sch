@@ -5481,6 +5481,16 @@
 		)
 		(uuid "ffdce0a8-9803-48ff-8e64-c9fadd10323a")
 	)
+	(label "ETH_TXP_C"
+		(at 275.59 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "027c5011-4238-4c1f-9141-a74b29cc510f")
+	)
 	(label "nINT"
 		(at 63.5 43.18 180)
 		(effects
@@ -5501,6 +5511,16 @@
 		)
 		(uuid "181a6a1f-7d53-4d94-b83b-b2d0b2bf47e8")
 	)
+	(label "ETH_TXP"
+		(at 177.8 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f1dea0e-8fef-4080-b061-8bb3aa9d9650")
+	)
 	(label "ETH_SPI_SS"
 		(at 63.5 40.64 180)
 		(effects
@@ -5510,6 +5530,16 @@
 			(justify right bottom)
 		)
 		(uuid "1fe420c9-a797-4e7d-add4-61f0afb5fb7c")
+	)
+	(label "ETH_RXN_C"
+		(at 275.59 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "316578aa-2154-4564-96f1-165866c1e136")
 	)
 	(label "ACTLED"
 		(at 344.17 130.81 180)
@@ -5551,6 +5581,26 @@
 		)
 		(uuid "421c1fa2-55f2-431a-8dde-e4073686fe81")
 	)
+	(label "ETH_RXN"
+		(at 177.8 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a4c4687-140c-44ca-8852-b04e4c1192d8")
+	)
+	(label "ETH_TXN"
+		(at 177.8 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d22cf3a-ffb4-48a1-aa1a-24b8272bf73b")
+	)
 	(label "XI"
 		(at 119.38 146.05 180)
 		(effects
@@ -5561,6 +5611,16 @@
 		)
 		(uuid "6ed0041d-b288-4413-8c4a-4c8d352bde48")
 	)
+	(label "ETH_RXP"
+		(at 177.8 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8368004a-b138-4795-9c0b-3f40093f24a3")
+	)
 	(label "SPI_MOSI"
 		(at 119.38 123.19 0)
 		(effects
@@ -5570,6 +5630,16 @@
 			(justify left bottom)
 		)
 		(uuid "918e7a3d-125d-43b4-8915-492d151136e6")
+	)
+	(label "ETH_RXP_C"
+		(at 275.59 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98878181-706f-42d2-975d-d72337d5fe6e")
 	)
 	(label "SPI_MISO"
 		(at 63.5 35.56 180)
@@ -5600,6 +5670,16 @@
 			(justify right bottom)
 		)
 		(uuid "c57514ac-8e27-4f36-afd5-cabc435fa94a")
+	)
+	(label "ETH_TXN_C"
+		(at 275.59 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd7ce579-254b-4c20-94a2-a70889f47438")
 	)
 	(label "SPI_MISO"
 		(at 119.38 120.65 0)
