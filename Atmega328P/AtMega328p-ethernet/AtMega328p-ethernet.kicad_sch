@@ -11,297 +11,6 @@
 		(company "HUNTER INC.")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x05_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05_Socket"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.572)
-					(mid -0.5058 5.08)
-					(end 0 5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1033,10 +742,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1045,19 +751,21 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 0 3.81 0)
+				(at 3.175 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1078,7 +786,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two pin crystal"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1105,10 +813,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -1.905 0)
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1120,7 +828,31 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -1143,19 +875,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
+						(xy 0 3.556) (xy 0 3.81)
 					)
 					(stroke
 						(width 0)
@@ -1165,8 +885,44 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "Crystal_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -1186,9 +942,196 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 5.08 270)
 					(length 1.27)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:FerriteBead_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2321,6 +2264,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -2547,6 +2615,141 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Reference Design recommends HH-1M1608-121JT\n"
+		(exclude_from_sim no)
+		(at 368.046 27.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f28aace2-0f3e-41f6-885a-7eb5c3ca4a4f")
 	)
 	(junction
 		(at 73.66 71.12)
@@ -2559,6 +2762,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a657225-3140-4cc8-94cc-3071f67d2c0a")
+	)
+	(junction
+		(at 377.19 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44b465bb-8dd4-4934-9393-c8aab2229829")
 	)
 	(junction
 		(at 158.75 97.79)
@@ -2589,6 +2798,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e0dd8fb-1f6d-4ce9-a8f7-6322e0370df0")
+	)
+	(junction
+		(at 294.64 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5ee3e9e-5f35-4907-bc58-221685ec4d78")
+	)
+	(junction
+		(at 271.78 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c72d9bc9-7b4e-453c-9b76-9cb74d7bd7c9")
+	)
+	(junction
+		(at 91.44 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e16be329-b37e-4363-87e8-8132f9a8ed5b")
 	)
 	(junction
 		(at 158.75 87.63)
@@ -2850,6 +3077,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 96.52) (xy 271.78 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6223ae-5b9e-4e6d-a470-31aa26ecdb5e")
+	)
+	(wire
+		(pts
 			(xy 125.73 57.15) (xy 125.73 54.61)
 		)
 		(stroke
@@ -2930,6 +3167,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 210.82) (xy 91.44 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ffff01c-95cc-4020-8b91-04174d712913")
+	)
+	(wire
+		(pts
 			(xy 283.21 38.1) (xy 300.99 38.1)
 		)
 		(stroke
@@ -2937,6 +3184,16 @@
 			(type default)
 		)
 		(uuid "429ccac7-1bce-40a3-9899-7a62011c6a58")
+	)
+	(wire
+		(pts
+			(xy 280.67 88.9) (xy 271.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "448970cd-bf85-4e3a-a0e4-7d81d13943c1")
 	)
 	(wire
 		(pts
@@ -2990,6 +3247,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 87.63) (xy 271.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510c7663-2341-4914-9931-e059134234b6")
+	)
+	(wire
+		(pts
 			(xy 158.75 95.25) (xy 158.75 97.79)
 		)
 		(stroke
@@ -3040,6 +3307,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 34.29) (xy 377.19 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fcca575-3f9c-47d7-9e01-a7d1e6239a4e")
+	)
+	(wire
+		(pts
 			(xy 138.43 118.11) (xy 154.94 118.11)
 		)
 		(stroke
@@ -3057,6 +3334,16 @@
 			(type default)
 		)
 		(uuid "621ab24f-bbe2-4897-a99d-02188bdaa5ec")
+	)
+	(wire
+		(pts
+			(xy 377.19 38.1) (xy 370.84 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6258eb34-c603-499d-a081-0264a2a0d075")
 	)
 	(wire
 		(pts
@@ -3140,6 +3427,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 88.9) (xy 294.64 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f8e80e-1a69-4ece-a9ca-93125b7a2eb1")
+	)
+	(wire
+		(pts
 			(xy 138.43 107.95) (xy 154.94 107.95)
 		)
 		(stroke
@@ -3220,6 +3517,16 @@
 	)
 	(wire
 		(pts
+			(xy 285.75 88.9) (xy 294.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b67fd6c-14ec-4b04-8994-ad460fe55f00")
+	)
+	(wire
+		(pts
 			(xy 123.19 48.26) (xy 111.76 48.26)
 		)
 		(stroke
@@ -3227,6 +3534,26 @@
 			(type default)
 		)
 		(uuid "8ceaf3e7-842f-4290-a83f-6b25db9b755a")
+	)
+	(wire
+		(pts
+			(xy 358.14 43.18) (xy 377.19 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d011202-20a2-4546-9fbf-423a98a0e8d6")
+	)
+	(wire
+		(pts
+			(xy 358.14 152.4) (xy 364.49 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947396c0-538b-41ac-b933-4daa6f47367d")
 	)
 	(wire
 		(pts
@@ -3287,6 +3614,16 @@
 			(type default)
 		)
 		(uuid "9e82f8cf-05c4-4097-ac38-64aa73bf9913")
+	)
+	(wire
+		(pts
+			(xy 295.91 152.4) (xy 300.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f205d08-3694-45b7-b01a-9c5cbd3139d7")
 	)
 	(wire
 		(pts
@@ -3450,6 +3787,26 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 43.18) (xy 377.19 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1c6659-fcd4-4e1c-83f4-ed8984f0e47b")
+	)
+	(wire
+		(pts
+			(xy 295.91 149.86) (xy 295.91 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06ce131-ccff-40d4-a645-7fb8a15e8913")
+	)
+	(wire
+		(pts
 			(xy 77.47 208.28) (xy 93.98 208.28)
 		)
 		(stroke
@@ -3570,6 +3927,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 38.1) (xy 365.76 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9cf3de9-d800-49e5-9fdd-620871f15999")
+	)
+	(wire
+		(pts
 			(xy 77.47 203.2) (xy 93.98 203.2)
 		)
 		(stroke
@@ -3577,6 +3944,26 @@
 			(type default)
 		)
 		(uuid "dacf7d59-3e78-403e-9d15-05e65c048dce")
+	)
+	(wire
+		(pts
+			(xy 300.99 88.9) (xy 294.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbedd5db-e201-4c57-a217-4332415e6651")
+	)
+	(wire
+		(pts
+			(xy 271.78 88.9) (xy 271.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5c0920-e9fa-461f-a797-28538fc5ae93")
 	)
 	(wire
 		(pts
@@ -3627,6 +4014,16 @@
 			(type default)
 		)
 		(uuid "e7549491-e1a2-44a4-ab0a-ce69c65c4258")
+	)
+	(wire
+		(pts
+			(xy 364.49 152.4) (xy 364.49 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8225fcd-7107-432e-be69-d37311bafa0b")
 	)
 	(wire
 		(pts
@@ -3747,6 +4144,16 @@
 			(type default)
 		)
 		(uuid "fcf03e6f-8171-4a2c-ad54-1edcc259e0a8")
+	)
+	(wire
+		(pts
+			(xy 91.44 210.82) (xy 93.98 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2be266-2ed1-416a-9e8c-3870ef412a48")
 	)
 	(wire
 		(pts
@@ -3957,6 +4364,16 @@
 			(justify right bottom)
 		)
 		(uuid "616818a5-dc25-4e3f-b6eb-877363efbe72")
+	)
+	(label "ETH_SPI_SS"
+		(at 77.47 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "617c2900-fe40-48d5-a6f3-a4e65d8432c2")
 	)
 	(label "PD4"
 		(at 154.94 118.11 180)
@@ -4794,6 +5211,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 377.19 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2432882a-846d-4c0c-b50a-b6dd244e5609")
+		(property "Reference" "#PWR046"
+			(at 377.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 377.19 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 377.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fff7e7b-62e3-4cd4-9b11-8a5e69db53f2")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 364.49 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "246da8cb-203d-407f-a7a3-eece4ce1fdb6")
+		(property "Reference" "#PWR030"
+			(at 364.49 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 364.49 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 364.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 364.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "851ae3c4-48a3-4a22-90ee-dc7709e2465c")
+		)
+		(instances
+			(project ""
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 210.82 0)
 		(unit 1)
@@ -5118,6 +5667,72 @@
 			(project "AtMega328p-ethernet"
 				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 295.91 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e56c588-4df3-4d0c-850c-72decd60b0a1")
+		(property "Reference" "#PWR014"
+			(at 295.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 295.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 295.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac93366a-452a-4653-ad53-c43fabee5e2a")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5590,35 +6205,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 99.06 203.2 0)
+		(lib_id "power:VBUS")
+		(at 294.64 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "745af061-5d6b-4321-b234-c02c690d82cb")
-		(property "Reference" "J1"
-			(at 100.33 201.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05_Socket"
-			(at 100.33 204.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 99.06 203.2 0)
+		(uuid "74552d44-8694-48e3-93e7-69f21e7d832a")
+		(property "Reference" "#PWR056"
+			(at 294.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,8 +6223,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 99.06 203.2 0)
+		(property "Value" "VBUS"
+			(at 294.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,8 +6240,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 99.06 203.2 0)
+		(property "Datasheet" ""
+			(at 294.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 294.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,24 +6259,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "acf97ab4-4318-4909-bb46-999b98f3568d")
-		)
-		(pin "2"
-			(uuid "04bcac5c-ee22-4b36-afee-5c94e9c2603d")
-		)
-		(pin "4"
-			(uuid "5087bd62-f258-4246-91be-110abd1a1176")
-		)
-		(pin "5"
-			(uuid "65816395-873b-41c4-a180-b7326954dbb3")
-		)
-		(pin "3"
-			(uuid "6a570dd0-b6b7-46fc-8995-187adbf924a0")
+			(uuid "3f6f67c1-b1e0-4f38-8af5-9abf03346b9f")
 		)
 		(instances
-			(project ""
+			(project "AtMega328p-ethernet"
 				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
-					(reference "J1")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6092,6 +6694,72 @@
 			(project "AtMega328p-ethernet"
 				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 271.78 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ff33c2d-8918-4d35-8818-6cc99b2f4068")
+		(property "Reference" "#PWR032"
+			(at 271.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27a35a9c-95ef-4b3d-8288-614289ecfa6a")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -6582,7 +7250,166 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 99.06 203.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be4a133d-ab85-4014-9e9e-ed128a75f681")
+		(property "Reference" "J1"
+			(at 100.33 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_Socket"
+			(at 100.33 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 99.06 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 99.06 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "56428a99-3ca5-47ba-a82f-109fc49d11d2")
+		)
+		(pin "3"
+			(uuid "7b0543d0-0918-4722-b87e-47cc62abdb6d")
+		)
+		(pin "1"
+			(uuid "b93464f8-e13a-4baa-9d5c-4a4eaded4949")
+		)
+		(pin "6"
+			(uuid "a99b61f7-bd4d-4000-88ef-3a5c14bb3b7d")
+		)
+		(pin "5"
+			(uuid "1085473f-f485-4715-87d3-c120a9e02971")
+		)
+		(pin "2"
+			(uuid "4a0c9620-a1eb-426c-878b-807776cebabe")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 283.21 88.9 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4c7576d-98b8-4b55-9f8e-7657c9a79109")
+		(property "Reference" "FB2"
+			(at 283.2481 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R@100MHz"
+			(at 283.464 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 283.21 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 283.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1015"
+			(at 283.21 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5d78e50-2f7e-4041-9fe7-912d603af1b0")
+		)
+		(pin "2"
+			(uuid "5d3ff8ec-decb-44a4-963b-740a020a52d1")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
 		(at 73.66 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6626,7 +7453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 73.66 74.93 0)
 			(effects
 				(font
@@ -6649,6 +7476,12 @@
 		)
 		(pin "2"
 			(uuid "bd9d7cea-e3be-43d0-9704-0dafd37f3c25")
+		)
+		(pin "4"
+			(uuid "c88bcad8-6398-404f-a3c2-cdb3a70b1ba6")
+		)
+		(pin "3"
+			(uuid "3186a2f4-c191-4e46-ab53-dc44bf4cb5a7")
 		)
 		(instances
 			(project "AtMega328p-ethernet"
@@ -6953,6 +7786,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 271.78 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbf66b2f-5815-4320-a8da-48ae8cc685f1")
+		(property "Reference" "C26"
+			(at 267.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 266.954 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 271.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 271.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 271.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceb71575-d17b-410e-a9f2-5151512e30aa")
+		)
+		(pin "2"
+			(uuid "d3da91af-2ea8-47a6-9c20-023308b30e9d")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 142.24 193.04 0)
 		(unit 1)
@@ -7164,6 +8074,149 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 368.3 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef04a673-785b-459c-a758-760d4ad72ffc")
+		(property "Reference" "FB1"
+			(at 368.2619 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R@100MHz"
+			(at 368.046 35.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 368.3 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 368.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 368.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1015"
+			(at 368.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17de3c5d-9100-4e97-acc8-dd8cad900a01")
+		)
+		(pin "2"
+			(uuid "d9ecbbb0-ecd5-4106-9102-be706ca6205c")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 271.78 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f20442e2-e546-4b08-b6c9-d2e3109add78")
+		(property "Reference" "#PWR013"
+			(at 271.78 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 271.78 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 271.78 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e86b0de-d61a-40c7-be9e-b1ff777ede2e")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 58.42 115.57 90)
 		(unit 1)
@@ -7355,6 +8408,26 @@
 				(justify left top)
 			)
 		)
+		(pin "+3.3V_OUT" output
+			(at 358.14 152.4 0)
+			(uuid "390180f1-621c-4eaa-a5b7-d3fff3ae4af2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V_IN" output
+			(at 300.99 152.4 180)
+			(uuid "3815ba8a-540c-4025-8a99-6ed412e1e4ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "AtMega328p-ethernet"
 				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
@@ -7410,6 +8483,16 @@
 		(pin "USB_TXD" output
 			(at 300.99 101.6 180)
 			(uuid "4057069a-5e77-4550-94c1-37d1565f4abb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_OUT" output
+			(at 300.99 88.9 180)
+			(uuid "2cf969c6-ebc6-46fc-8f0c-3d36bef8f831")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,6 +8600,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "+3.3VA_IN" input
+			(at 358.14 38.1 0)
+			(uuid "d70b24a5-943a-420a-b045-957c67984d39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3.3V_IN" input
+			(at 358.14 43.18 0)
+			(uuid "f9e7395a-ca9a-4149-b080-c02cac751d77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

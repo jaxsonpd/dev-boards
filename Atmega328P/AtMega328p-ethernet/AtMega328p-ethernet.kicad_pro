@@ -506,6 +506,18 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/ETHERNET_MODULE/ETH_RXN": [
+        "ETHERNET"
+      ],
+      "/ETHERNET_MODULE/ETH_RXP": [
+        "ETHERNET"
+      ],
+      "/ETHERNET_MODULE/ETH_TXN": [
+        "ETHERNET"
+      ],
+      "/ETHERNET_MODULE/ETH_TXP": [
+        "ETHERNET"
+      ],
       "/USB_INTERFACE/USB_N": [
         "USB"
       ],
