@@ -2138,10 +2138,6 @@
 		(uuid "b452fa10-e170-4a52-80e8-bf1758944ba1")
 	)
 	(no_connect
-		(at 170.18 74.93)
-		(uuid "2c3bb926-e104-423f-9dd9-2b6b9c866754")
-	)
-	(no_connect
 		(at 170.18 80.01)
 		(uuid "3cf03a04-2d63-44f5-b8e7-3d2d6aad67d4")
 	)
@@ -2154,24 +2150,8 @@
 		(uuid "605c498f-0a05-446c-a7d4-f94dd3370310")
 	)
 	(no_connect
-		(at 170.18 125.73)
-		(uuid "77a996d8-d22b-4937-b4b9-1a94fd7e3e08")
-	)
-	(no_connect
-		(at 170.18 123.19)
-		(uuid "7fbe5865-c2dd-47d1-b4ba-7574a8ca439a")
-	)
-	(no_connect
 		(at 170.18 115.57)
 		(uuid "87b2c932-92b2-41fc-a045-31a23feb707a")
-	)
-	(no_connect
-		(at 170.18 107.95)
-		(uuid "88e08f57-1052-4c70-9d18-4a8987b76846")
-	)
-	(no_connect
-		(at 170.18 105.41)
-		(uuid "8a094ac7-6b36-40be-bf17-3bd173da94ed")
 	)
 	(no_connect
 		(at 170.18 85.09)
@@ -2180,14 +2160,6 @@
 	(no_connect
 		(at 170.18 110.49)
 		(uuid "8f445961-7ebc-47b0-bbd9-b8b3f321c98a")
-	)
-	(no_connect
-		(at 170.18 77.47)
-		(uuid "a84fa5af-43e4-4a9b-8ab7-b9b0a2602809")
-	)
-	(no_connect
-		(at 170.18 87.63)
-		(uuid "ae01f839-c271-450f-8b81-098e8923a3a4")
 	)
 	(no_connect
 		(at 78.74 97.79)
@@ -2201,10 +2173,6 @@
 		(at 170.18 95.25)
 		(uuid "d79a75c6-2e1f-441d-b99b-dd2d40feddba")
 	)
-	(no_connect
-		(at 170.18 120.65)
-		(uuid "dcc3dbb2-4981-4217-b876-c3c1ca766524")
-	)
 	(wire
 		(pts
 			(xy 97.79 72.39) (xy 97.79 93.98)
@@ -2214,6 +2182,16 @@
 			(type default)
 		)
 		(uuid "00e3181f-7737-467e-9005-acccfa8f0b53")
+	)
+	(wire
+		(pts
+			(xy 170.18 87.63) (xy 177.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03186f5b-c982-424a-b9d6-80d66af2dc2f")
 	)
 	(wire
 		(pts
@@ -2247,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 100.33) (xy 177.8 101.6)
+			(xy 184.15 100.33) (xy 184.15 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2274,6 +2252,16 @@
 			(type default)
 		)
 		(uuid "193d7c2a-470e-487f-905e-b9b86cdd1b32")
+	)
+	(wire
+		(pts
+			(xy 179.07 105.41) (xy 170.18 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ccc21eb-bfa7-4d74-9ffb-c589956a6827")
 	)
 	(wire
 		(pts
@@ -2317,6 +2305,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 74.93) (xy 182.88 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26484590-4660-478b-8292-ba97661834d4")
+	)
+	(wire
+		(pts
 			(xy 62.23 53.34) (xy 62.23 54.61)
 		)
 		(stroke
@@ -2337,6 +2335,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 123.19) (xy 170.18 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd7e39c-ac1c-4cd5-b05e-767d5ac588b1")
+	)
+	(wire
+		(pts
 			(xy 82.55 85.09) (xy 78.74 85.09)
 		)
 		(stroke
@@ -2354,6 +2362,36 @@
 			(type default)
 		)
 		(uuid "40c19788-3dea-4025-9952-88b012274d9f")
+	)
+	(wire
+		(pts
+			(xy 176.53 120.65) (xy 170.18 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50438d83-0a0a-4bc6-8e25-adc7099a4ac0")
+	)
+	(wire
+		(pts
+			(xy 179.07 77.47) (xy 179.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d69876-789c-4ba3-9ad5-9d1a281eff58")
+	)
+	(wire
+		(pts
+			(xy 170.18 77.47) (xy 179.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54faa4f3-96da-49b0-a22a-4d718d65c343")
 	)
 	(wire
 		(pts
@@ -2397,6 +2435,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 121.92) (xy 176.53 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d07a2ae-7efa-4b27-b945-7395fdfe266f")
+	)
+	(wire
+		(pts
 			(xy 105.41 99.06) (xy 105.41 101.6)
 		)
 		(stroke
@@ -2414,6 +2462,16 @@
 			(type default)
 		)
 		(uuid "61880298-516c-4852-86cc-3eac24d611b2")
+	)
+	(wire
+		(pts
+			(xy 171.45 125.73) (xy 171.45 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654b8a48-76f1-40bd-ac9c-4b2469eb6f51")
 	)
 	(wire
 		(pts
@@ -2467,6 +2525,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 125.73) (xy 170.18 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de610c9-1741-4721-8501-02bc6846b008")
+	)
+	(wire
+		(pts
 			(xy 101.6 101.6) (xy 101.6 102.87)
 		)
 		(stroke
@@ -2487,7 +2555,37 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 100.33) (xy 177.8 100.33)
+			(xy 173.99 127) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a8e520-745f-42d5-a96c-55bd33a231cc")
+	)
+	(wire
+		(pts
+			(xy 182.88 74.93) (xy 182.88 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90229f41-aea8-4cb8-9a76-043bd9205df0")
+	)
+	(wire
+		(pts
+			(xy 176.53 107.95) (xy 170.18 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912fa362-eacb-415e-ad17-abaaf3eede6e")
+	)
+	(wire
+		(pts
+			(xy 170.18 100.33) (xy 184.15 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2537,7 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 92.71) (xy 181.61 92.71)
+			(xy 170.18 92.71) (xy 187.96 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2647,6 +2745,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 109.22) (xy 179.07 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea72971-a26c-40a0-abaf-e82de834bb1c")
+	)
+	(wire
+		(pts
 			(xy 82.55 87.63) (xy 144.78 87.63)
 		)
 		(stroke
@@ -2677,7 +2785,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 92.71) (xy 181.61 97.79)
+			(xy 187.96 92.71) (xy 187.96 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2714,6 +2822,16 @@
 			(type default)
 		)
 		(uuid "cfbf738a-446b-4cd0-b3ee-eb5a193973e0")
+	)
+	(wire
+		(pts
+			(xy 176.53 113.03) (xy 176.53 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21e9f1f-c1bf-434e-89b8-d355cfb53893")
 	)
 	(wire
 		(pts
@@ -2817,7 +2935,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 102.87) (xy 170.18 102.87)
+			(xy 181.61 102.87) (xy 170.18 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2827,7 +2945,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 105.41) (xy 175.26 102.87)
+			(xy 181.61 105.41) (xy 181.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2983,7 +3101,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 27b206b7-8b5a-44fd-9ca5-c265ec8bdc1e)
+			(uuid e111879f-f646-46c1-974d-c8323717802c)
 		)
 	)
 	(netclass_flag ""
@@ -3018,6 +3136,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "03dc3778-72a5-4506-8267-f381848c4511")
+		(property "Reference" "TP5"
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "nRTS"
+			(at 183.896 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "148a52fd-1c66-4559-ae6d-5bed50a759ed")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2/1cfd0189-4634-4020-adfb-07004d661840"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_USB:CP2102N-Axx-xQFN28")
 		(at 157.48 97.79 0)
 		(unit 1)
@@ -3025,10 +3209,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "11c14f36-1cc1-4dbe-a862-bb031ce22efe")
 		(property "Reference" "U3"
-			(at 159.6233 130.81 0)
+			(at 159.004 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +3220,7 @@
 			)
 		)
 		(property "Value" "CP2102N-Axx-xQFN28"
-			(at 159.6233 133.35 0)
+			(at 133.35 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3438,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 175.26 105.41 180)
+		(at 181.61 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3263,7 +3446,7 @@
 		(dnp no)
 		(uuid "1e16b804-4309-4a84-9c92-2f8967e9fd78")
 		(property "Reference" "TP3"
-			(at 176.53 107.95 0)
+			(at 182.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3455,7 @@
 			)
 		)
 		(property "Value" "USBRx"
-			(at 176.276 109.728 0)
+			(at 182.626 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,7 +3464,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 170.18 105.41 0)
+			(at 176.53 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 105.41 0)
+			(at 176.53 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3482,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 175.26 105.41 0)
+			(at 181.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3662,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 181.61 97.79 180)
+		(at 187.96 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3487,7 +3670,7 @@
 		(dnp no)
 		(uuid "25977956-d3a3-4abe-8e5e-a22af175cb11")
 		(property "Reference" "TP2"
-			(at 182.88 100.584 0)
+			(at 189.23 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +3679,7 @@
 			)
 		)
 		(property "Value" "SSPND"
-			(at 182.626 102.362 0)
+			(at 188.976 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +3688,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 176.53 97.79 0)
+			(at 182.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +3697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 97.79 0)
+			(at 182.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +3706,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 181.61 97.79 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,15 +3794,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 177.8 101.6 180)
+		(at 176.53 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "355e7704-0853-4001-975f-47231c1193e5")
-		(property "Reference" "TP4"
-			(at 179.07 104.14 0)
+		(uuid "3392a94e-2733-49eb-8ba7-24da125bd623")
+		(property "Reference" "TP12"
+			(at 177.8 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,8 +3810,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USBTx"
-			(at 178.816 105.918 0)
+		(property "Value" "nWAKE"
+			(at 177.546 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +3820,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 172.72 101.6 0)
+			(at 171.45 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +3829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 101.6 0)
+			(at 171.45 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +3838,73 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 177.8 101.6 0)
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60758878-37c6-4268-9b5b-95babcb95c3a")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2/1cfd0189-4634-4020-adfb-07004d661840"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 184.15 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "355e7704-0853-4001-975f-47231c1193e5")
+		(property "Reference" "TP4"
+			(at 185.42 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USBTx"
+			(at 185.166 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 184.15 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,6 +3985,72 @@
 			(project "AtMega328p-ethernet"
 				(path "/441f74dc-335f-4227-aefc-792ec34889a2/1cfd0189-4634-4020-adfb-07004d661840"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 171.45 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "58883224-a456-4b3b-bb80-fe0127c88718")
+		(property "Reference" "TP10"
+			(at 172.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CHR1"
+			(at 172.466 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 171.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "719806f6-a4af-4f6a-82e9-1720d1cb2b43")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2/1cfd0189-4634-4020-adfb-07004d661840"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -3950,6 +4265,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ba081c7-d260-4877-80bc-8af178caecf5")
+		(property "Reference" "TP11"
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RS485"
+			(at 180.086 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5add05dc-16e2-4345-892f-13ec249e0f82")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2/1cfd0189-4634-4020-adfb-07004d661840"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 105.41 96.52 180)
 		(unit 1)
@@ -4104,6 +4485,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 179.07 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "aeffde63-7928-4577-af1c-508bd4612ecc")
+		(property "Reference" "TP6"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "nCTS"
+			(at 180.086 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 179.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abff02a7-17cd-45bb-816a-6c1168cea8a6")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2/1cfd0189-4634-4020-adfb-07004d661840"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 133.35 0)
 		(unit 1)
@@ -4164,6 +4611,72 @@
 			(project "AtMega328p-ethernet"
 				(path "/441f74dc-335f-4227-aefc-792ec34889a2/1cfd0189-4634-4020-adfb-07004d661840"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 177.8 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c87183db-db8e-40a5-92a3-a3db617c108a")
+		(property "Reference" "TP7"
+			(at 179.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CLK"
+			(at 178.816 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 172.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 177.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fd2ce52-d9b3-4ca2-92fa-09f60374996b")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2/1cfd0189-4634-4020-adfb-07004d661840"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -4308,6 +4821,72 @@
 			(project "AtMega328p-ethernet"
 				(path "/441f74dc-335f-4227-aefc-792ec34889a2/1cfd0189-4634-4020-adfb-07004d661840"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 173.99 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfdd1404-519f-4a2b-bc9e-683241e7879e")
+		(property "Reference" "TP9"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CHR0"
+			(at 175.006 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 168.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 173.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22848074-c0c4-4bbd-8e08-9ec96654ad8a")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2/1cfd0189-4634-4020-adfb-07004d661840"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -4572,6 +5151,72 @@
 			(project "AtMega328p-ethernet"
 				(path "/441f74dc-335f-4227-aefc-792ec34889a2/1cfd0189-4634-4020-adfb-07004d661840"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 176.53 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e38bdcb9-7f14-421c-a6b2-5ac281fe1261")
+		(property "Reference" "TP8"
+			(at 177.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CHREN"
+			(at 177.546 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 171.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 176.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56ff0317-0855-4560-b6e1-2560919bccea")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2/1cfd0189-4634-4020-adfb-07004d661840"
+					(reference "TP8")
 					(unit 1)
 				)
 			)

@@ -3461,12 +3461,20 @@
 		(uuid "22698dc0-1148-47a9-b7e8-846fb73c013f")
 	)
 	(no_connect
+		(at 99.06 149.86)
+		(uuid "33e2a6b6-b66f-4bee-a153-d5370c77af0e")
+	)
+	(no_connect
 		(at 133.35 158.75)
 		(uuid "44e7fb56-07ff-41a4-aa8f-4f2b0fae5a3f")
 	)
 	(no_connect
 		(at 163.83 163.83)
 		(uuid "5c6b7e7b-36b5-4eff-a7f1-209c0ccba9ac")
+	)
+	(no_connect
+		(at 109.22 149.86)
+		(uuid "6f54cdc6-e983-4532-b712-71d19d8f8cfc")
 	)
 	(no_connect
 		(at 133.35 156.21)
@@ -5400,7 +5408,7 @@
 			(fill
 				(type none)
 			)
-			(uuid c610b186-fd5c-4545-8672-0d54bb396b88)
+			(uuid be4cff59-98c3-4e5d-9112-1391957b0c79)
 		)
 	)
 	(netclass_flag ""
@@ -5729,7 +5737,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1684ce5d-264f-481d-8cf6-e7a24cfbbbed")
 		(property "Reference" "R20"
 			(at 124.206 134.874 90)
@@ -5796,7 +5804,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "27d90082-fe76-4a4c-8d57-eb9f28e1bc7b")
 		(property "Reference" "R25"
 			(at 111.76 139.954 90)
@@ -8820,7 +8828,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f7e620d9-bc06-4d5b-ade5-73d275f4d503")
 		(property "Reference" "R24"
 			(at 118.11 137.414 90)
