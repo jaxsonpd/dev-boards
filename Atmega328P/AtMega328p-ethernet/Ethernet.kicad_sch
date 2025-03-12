@@ -5026,7 +5026,7 @@
 		)
 		(uuid "ffdce0a8-9803-48ff-8e64-c9fadd10323a")
 	)
-	(label "ETH_TXP_C"
+	(label "ETH_C_TX_P"
 		(at 275.59 118.11 180)
 		(effects
 			(font
@@ -5056,7 +5056,7 @@
 		)
 		(uuid "181a6a1f-7d53-4d94-b83b-b2d0b2bf47e8")
 	)
-	(label "ETH_TXP"
+	(label "ETH_TX_P"
 		(at 177.8 120.65 180)
 		(effects
 			(font
@@ -5076,7 +5076,7 @@
 		)
 		(uuid "1fe420c9-a797-4e7d-add4-61f0afb5fb7c")
 	)
-	(label "ETH_RXN_C"
+	(label "ETH_C_RX_N"
 		(at 275.59 130.81 180)
 		(effects
 			(font
@@ -5126,7 +5126,7 @@
 		)
 		(uuid "421c1fa2-55f2-431a-8dde-e4073686fe81")
 	)
-	(label "ETH_RXN"
+	(label "ETH_RX_N"
 		(at 177.8 125.73 180)
 		(effects
 			(font
@@ -5136,7 +5136,7 @@
 		)
 		(uuid "6a4c4687-140c-44ca-8852-b04e4c1192d8")
 	)
-	(label "ETH_TXN"
+	(label "ETH_TX_N"
 		(at 177.8 118.11 180)
 		(effects
 			(font
@@ -5156,7 +5156,7 @@
 		)
 		(uuid "6ed0041d-b288-4413-8c4a-4c8d352bde48")
 	)
-	(label "ETH_RXP"
+	(label "ETH_RX_P"
 		(at 177.8 128.27 180)
 		(effects
 			(font
@@ -5176,7 +5176,7 @@
 		)
 		(uuid "918e7a3d-125d-43b4-8915-492d151136e6")
 	)
-	(label "ETH_RXP_C"
+	(label "ETH_C_RX_P"
 		(at 275.59 125.73 180)
 		(effects
 			(font
@@ -5216,7 +5216,7 @@
 		)
 		(uuid "c57514ac-8e27-4f36-afd5-cabc435fa94a")
 	)
-	(label "ETH_TXN_C"
+	(label "ETH_C_TX_N"
 		(at 275.59 123.19 180)
 		(effects
 			(font
@@ -5408,7 +5408,7 @@
 			(fill
 				(type none)
 			)
-			(uuid be4cff59-98c3-4e5d-9112-1391957b0c79)
+			(uuid 8d58c962-3624-4991-bc53-508adc509f6e)
 		)
 	)
 	(netclass_flag ""
@@ -7690,7 +7690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 176.53 172.72 0)
 			(effects
 				(font
@@ -7717,7 +7717,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C29823"
+		(property "LCSC" "C1779"
 			(at 176.53 172.72 0)
 			(effects
 				(font
@@ -7929,7 +7929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 186.69 172.72 0)
 			(effects
 				(font

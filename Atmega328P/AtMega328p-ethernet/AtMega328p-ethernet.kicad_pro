@@ -512,10 +512,22 @@
       "/ETHERNET_MODULE/ETH_RXP": [
         "ETHERNET"
       ],
+      "/ETHERNET_MODULE/ETH_RX_N": [
+        "ETHERNET"
+      ],
+      "/ETHERNET_MODULE/ETH_RX_P": [
+        "ETHERNET"
+      ],
       "/ETHERNET_MODULE/ETH_TXN": [
         "ETHERNET"
       ],
       "/ETHERNET_MODULE/ETH_TXP": [
+        "ETHERNET"
+      ],
+      "/ETHERNET_MODULE/ETH_TX_N": [
+        "ETHERNET"
+      ],
+      "/ETHERNET_MODULE/ETH_TX_P": [
         "ETHERNET"
       ],
       "/USB_INTERFACE/USB_N": [
