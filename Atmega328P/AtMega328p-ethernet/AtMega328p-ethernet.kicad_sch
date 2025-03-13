@@ -3251,6 +3251,12 @@
 		(uuid "1a657225-3140-4cc8-94cc-3071f67d2c0a")
 	)
 	(junction
+		(at 290.83 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4468ee3f-db57-4783-88d3-ef826c5022cb")
+	)
+	(junction
 		(at 377.19 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3297,6 +3303,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c72d9bc9-7b4e-453c-9b76-9cb74d7bd7c9")
+	)
+	(junction
+		(at 275.59 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca5d357f-603b-4d0f-8a31-0532dfb6698f")
 	)
 	(junction
 		(at 307.34 217.17)
@@ -3455,6 +3467,16 @@
 			(type default)
 		)
 		(uuid "0e2c851b-5a01-4f60-93a4-add43d1e1b95")
+	)
+	(wire
+		(pts
+			(xy 275.59 92.71) (xy 280.67 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4b5f56-b88c-47ff-b78f-6a16cc3b0fab")
 	)
 	(wire
 		(pts
@@ -3758,16 +3780,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 88.9) (xy 271.78 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "448970cd-bf85-4e3a-a0e4-7d81d13943c1")
-	)
-	(wire
-		(pts
 			(xy 279.4 48.26) (xy 300.99 48.26)
 		)
 		(stroke
@@ -3795,6 +3807,16 @@
 			(type default)
 		)
 		(uuid "48891f04-4afd-4ad4-8d59-f0ec27ede1cd")
+	)
+	(wire
+		(pts
+			(xy 290.83 88.9) (xy 294.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a761bd8-4a36-416a-9690-fc744c084509")
 	)
 	(wire
 		(pts
@@ -3885,6 +3907,26 @@
 			(type default)
 		)
 		(uuid "5569de93-b989-4fc9-aa61-d1cef03f3f65")
+	)
+	(wire
+		(pts
+			(xy 290.83 92.71) (xy 285.75 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558f699b-0682-418f-a94b-c4c5c4d57908")
+	)
+	(wire
+		(pts
+			(xy 275.59 85.09) (xy 275.59 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f962da-749d-4dea-91a6-7f54a5e31344")
 	)
 	(wire
 		(pts
@@ -4138,7 +4180,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 88.9) (xy 294.64 88.9)
+			(xy 285.75 85.09) (xy 290.83 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4195,6 +4237,16 @@
 			(type default)
 		)
 		(uuid "8e2fdd7c-447e-4c2a-844e-e1b452b6624d")
+	)
+	(wire
+		(pts
+			(xy 275.59 88.9) (xy 275.59 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8feded98-90f7-4753-bfd5-fbdffe87745e")
 	)
 	(wire
 		(pts
@@ -4368,6 +4420,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 85.09) (xy 280.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac652da7-2782-4b8f-932b-c993e2870981")
+	)
+	(wire
+		(pts
 			(xy 142.24 200.66) (xy 142.24 213.36)
 		)
 		(stroke
@@ -4448,6 +4510,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 88.9) (xy 271.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae23f6b-9754-44d3-ae64-ca0d2709fd29")
+	)
+	(wire
+		(pts
 			(xy 58.42 127) (xy 58.42 128.27)
 		)
 		(stroke
@@ -4515,6 +4587,16 @@
 			(type default)
 		)
 		(uuid "c3628688-b309-43ee-86ef-e0f223da6a7e")
+	)
+	(wire
+		(pts
+			(xy 290.83 88.9) (xy 290.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5508d3d-8ff1-4fa5-8a8d-cd5b02f1d797")
 	)
 	(wire
 		(pts
@@ -4815,6 +4897,16 @@
 			(type default)
 		)
 		(uuid "f26be9ef-a358-477b-9fca-c8ee0b676813")
+	)
+	(wire
+		(pts
+			(xy 290.83 85.09) (xy 290.83 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f370e3a5-ab03-45e2-9329-1e76f48789fc")
 	)
 	(wire
 		(pts
@@ -6962,6 +7054,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 283.21 92.71 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47027bb0-a5dd-444c-9780-0fc534a94e80")
+		(property "Reference" "FB3"
+			(at 283.21 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R@100MHz"
+			(at 283.464 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 283.21 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1015"
+			(at 283.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82bf30d1-f879-4e36-93fd-d3d960b41a74")
+		)
+		(pin "2"
+			(uuid "9326622c-828d-4cd3-b377-a67c86ffbe36")
+		)
+		(instances
+			(project "AtMega328p-ethernet"
+				(path "/441f74dc-335f-4227-aefc-792ec34889a2"
+					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 320.04 220.98 0)
 		(unit 1)
@@ -8605,7 +8774,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead_Small")
-		(at 283.21 88.9 270)
+		(at 283.21 85.09 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8614,7 +8783,7 @@
 		(dnp no)
 		(uuid "c4c7576d-98b8-4b55-9f8e-7657c9a79109")
 		(property "Reference" "FB2"
-			(at 283.2481 82.55 90)
+			(at 283.2481 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +8791,7 @@
 			)
 		)
 		(property "Value" "100R@100MHz"
-			(at 283.464 85.852 90)
+			(at 283.464 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,7 +8799,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 283.21 90.678 90)
+			(at 283.21 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,7 +8808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 283.21 88.9 0)
+			(at 283.21 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,7 +8817,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 283.21 88.9 0)
+			(at 283.21 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8657,7 +8826,7 @@
 			)
 		)
 		(property "LCSC" "C1015"
-			(at 283.21 88.9 0)
+			(at 283.21 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

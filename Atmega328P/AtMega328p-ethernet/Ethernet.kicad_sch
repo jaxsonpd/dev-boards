@@ -3808,6 +3808,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 139.7) (xy 247.65 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f38fec-5111-4b9c-a5f7-bd953fbee87f")
+	)
+	(wire
+		(pts
 			(xy 254 96.52) (xy 242.57 96.52)
 		)
 		(stroke
@@ -4638,7 +4648,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 146.05) (xy 260.35 146.05)
+			(xy 247.65 146.05) (xy 260.35 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4778,7 +4788,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 139.7) (xy 265.43 139.7)
+			(xy 252.73 139.7) (xy 265.43 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4838,16 +4848,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 139.7) (xy 252.73 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e84da7a0-e015-4baa-a9f8-8dbd0cb9b682")
-	)
-	(wire
-		(pts
 			(xy 177.8 104.14) (xy 177.8 106.68)
 		)
 		(stroke
@@ -4888,7 +4888,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 146.05) (xy 247.65 146.05)
+			(xy 241.3 146.05) (xy 242.57 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5075,6 +5075,26 @@
 			(justify right bottom)
 		)
 		(uuid "1fe420c9-a797-4e7d-add4-61f0afb5fb7c")
+	)
+	(label "ETH_RX_I_P"
+		(at 241.3 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2d712010-83f8-4ceb-8f1d-730a256c3136")
+	)
+	(label "ETH_RX_I_N"
+		(at 241.3 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2dd6b9f3-de55-4adf-9afe-01fdea7b93cd")
 	)
 	(label "ETH_C_RX_N"
 		(at 275.59 130.81 180)
@@ -5408,7 +5428,68 @@
 			(fill
 				(type none)
 			)
-			(uuid 8d58c962-3624-4991-bc53-508adc509f6e)
+			(uuid 3e496491-ba7c-40d9-afda-679bb6bf96d9)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 261.62 110.49) (xy 261.62 141.605) (xy 276.86 141.605) (xy 276.86 110.49)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 4042e51e-4e48-493f-83c7-17123a3cd7a4)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 223.52 137.16) (xy 223.52 149.86) (xy 242.57 149.86) (xy 242.57 137.16)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 7ef0cc7a-8064-4ed6-8e6c-8659ca2e20b1)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 269.24 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71b113b6-7b82-4269-aa50-89bd40fab3b5")
+		(property "Netclass" "ETHERNET"
+			(at 269.9385 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 260.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
 		)
 	)
 	(netclass_flag ""
@@ -5434,6 +5515,37 @@
 		)
 		(property "Component Class" ""
 			(at 181.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 224.79 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9e1116e-c8b9-426a-91d3-6f0658c71edd")
+		(property "Netclass" "ETHERNET"
+			(at 225.4885 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 215.9 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +5978,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 250.19 146.05 90)
+		(at 245.11 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5874,7 +5986,7 @@
 		(dnp no)
 		(uuid "280b5dc9-c31a-43a3-a38a-4c637516e8e4")
 		(property "Reference" "C8"
-			(at 251.46 148.844 90)
+			(at 246.38 148.844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,7 +5995,7 @@
 			)
 		)
 		(property "Value" "6.8nF"
-			(at 252.984 150.876 90)
+			(at 247.904 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5892,7 +6004,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 250.19 146.05 0)
+			(at 245.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5901,7 +6013,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 146.05 0)
+			(at 245.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5910,7 +6022,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 250.19 146.05 0)
+			(at 245.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5919,7 +6031,7 @@
 			)
 		)
 		(property "LCSC" "C1631"
-			(at 250.19 146.05 0)
+			(at 245.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6554,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 255.27 139.7 90)
+		(at 250.19 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6450,7 +6562,7 @@
 		(dnp no)
 		(uuid "69cf072c-c601-4634-ab1b-a719331e6643")
 		(property "Reference" "C7"
-			(at 256.54 142.494 90)
+			(at 251.46 142.494 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6459,7 +6571,7 @@
 			)
 		)
 		(property "Value" "6.8nF"
-			(at 258.064 144.526 90)
+			(at 252.984 144.526 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6468,7 +6580,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 255.27 139.7 0)
+			(at 250.19 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +6589,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 139.7 0)
+			(at 250.19 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,7 +6598,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 255.27 139.7 0)
+			(at 250.19 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +6607,7 @@
 			)
 		)
 		(property "LCSC" "C1631"
-			(at 255.27 139.7 0)
+			(at 250.19 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
