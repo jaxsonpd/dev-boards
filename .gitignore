@@ -26,6 +26,8 @@ fp-info-cache
 *.gbr
 *.drl
 *.tar.gz
+*drl_map.pdf
+**/*drl_map.pdf
 
 # Netlist files (exported from Eeschema)
 *.net

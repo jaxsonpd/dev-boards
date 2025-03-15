@@ -77,7 +77,7 @@
 		(layer "F.SilkS")
 		(uuid "dd49ad69-2d8b-4713-8f74-8a44dc4c2aec")
 	)
-	(fp_text user "BOARD"
+	(fp_text user "EDGE"
 		(at -0.5 7.5 0)
 		(unlocked yes)
 		(layer "F.CrtYd")
