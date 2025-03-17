@@ -5126,16 +5126,6 @@
 		)
 		(uuid "37a6551b-826b-4094-99ec-ba6e9f814015")
 	)
-	(label "ETH_SPI_SS"
-		(at 119.38 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f67e12a-ab4f-4407-afcc-f0fa16d4937d")
-	)
 	(label "SPI_SCK"
 		(at 63.5 33.02 180)
 		(effects
@@ -5186,16 +5176,6 @@
 		)
 		(uuid "8368004a-b138-4795-9c0b-3f40093f24a3")
 	)
-	(label "SPI_MOSI"
-		(at 119.38 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "918e7a3d-125d-43b4-8915-492d151136e6")
-	)
 	(label "ETH_C_RX_P"
 		(at 275.59 125.73 180)
 		(effects
@@ -5205,6 +5185,16 @@
 			(justify right bottom)
 		)
 		(uuid "98878181-706f-42d2-975d-d72337d5fe6e")
+	)
+	(label "ETH_SPI_SS"
+		(at 119.38 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d64f772-c9df-460f-ba81-bbafe03def6a")
 	)
 	(label "SPI_MISO"
 		(at 63.5 35.56 180)
@@ -5246,15 +5236,15 @@
 		)
 		(uuid "cd7ce579-254b-4c20-94a2-a70889f47438")
 	)
-	(label "SPI_MISO"
-		(at 119.38 120.65 0)
+	(label "SPI_MOSI"
+		(at 119.38 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ce8772b8-02ac-4bdc-8f28-8ee63acb9e5b")
+		(uuid "d1927949-d4ea-49d2-a082-6c2844c070e8")
 	)
 	(label "SPI_MOSI"
 		(at 63.5 38.1 180)
@@ -5286,15 +5276,25 @@
 		)
 		(uuid "e6b63b14-7b49-4d7a-9984-edbeca744f63")
 	)
-	(label "SPI_SCK"
-		(at 119.38 118.11 0)
+	(label "SPI_MISO"
+		(at 119.38 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "e8f51a7b-37e3-45eb-a1fc-de204aef9660")
+		(uuid "ed2321b0-24ac-4463-a09e-9722ce3a5124")
+	)
+	(label "SPI_SCK"
+		(at 119.38 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef8a6741-e95c-407b-a8c1-187fd210bcf5")
 	)
 	(label "XO"
 		(at 119.38 153.67 180)
@@ -5419,7 +5419,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 189.23 116.84) (xy 189.23 129.54) (xy 191.77 129.54) (xy 191.77 116.84)
+				(xy 261.62 110.49) (xy 261.62 141.605) (xy 276.86 141.605) (xy 276.86 110.49)
 			)
 			(stroke
 				(width 0)
@@ -5428,7 +5428,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 21164018-3807-4200-afaf-37b9d618db95)
+			(uuid 47e57882-2499-4da5-b3b4-3d3bdc87f76a)
 		)
 	)
 	(rule_area
@@ -5443,13 +5443,13 @@
 			(fill
 				(type none)
 			)
-			(uuid 571cd786-4e5d-4606-ad1b-fdc996bbe21a)
+			(uuid e53057f8-751b-4380-a969-1d0bf7ad7f30)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 261.62 110.49) (xy 261.62 141.605) (xy 276.86 141.605) (xy 276.86 110.49)
+				(xy 189.23 116.84) (xy 189.23 129.54) (xy 191.77 129.54) (xy 191.77 116.84)
 			)
 			(stroke
 				(width 0)
@@ -5458,7 +5458,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 5734ef14-ef6c-4341-bedb-61b603e2462a)
+			(uuid fa7ecb84-0d44-4dd2-b399-05e40ca34ec6)
 		)
 	)
 	(netclass_flag ""
