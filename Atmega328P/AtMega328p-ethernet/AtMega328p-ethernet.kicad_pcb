@@ -423,7 +423,7 @@
 		(descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x03 2.54mm double row")
 		(property "Reference" "J8"
-			(at 1.275 7.54 0)
+			(at 3.775 7.125 0)
 			(layer "F.SilkS")
 			(uuid "48489969-a07a-454f-91ba-5d5ab314f9fe")
 			(effects
@@ -1372,7 +1372,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J4"
-			(at 3 14 180)
+			(at 0.2 15.44 180)
 			(layer "F.SilkS")
 			(uuid "31fb5ead-1c9d-4d4d-96de-51d354ec7cae")
 			(effects
@@ -2474,7 +2474,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 2.4 -0.5 0)
+			(at 2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "be989bf3-4829-478b-9978-3a72964ccd1f")
 			(effects
@@ -4546,7 +4546,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 3 0 0)
+			(at 0 1.4 0)
 			(layer "F.SilkS")
 			(uuid "c18607eb-ce9b-4249-940d-97d189dc84b6")
 			(effects
@@ -8205,7 +8205,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C29"
-			(at -0.1 -2 90)
+			(at -3.7 0 90)
 			(layer "F.SilkS")
 			(uuid "4371a7d5-8819-45ff-a7e0-0c85e34f0fc7")
 			(effects
@@ -9838,7 +9838,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D2"
-			(at -2.7 0.1 180)
+			(at 2.6 0 180)
 			(layer "F.SilkS")
 			(uuid "4a8359fb-5fd8-4281-9318-db66879ac2de")
 			(effects
@@ -11453,7 +11453,7 @@
 		(descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x03 2.54mm double row")
 		(property "Reference" "J10"
-			(at 5.175 5.925 180)
+			(at -1.625 7.825 180)
 			(layer "F.SilkS")
 			(uuid "f6ead141-0389-4154-b9d6-d17325ed176e")
 			(effects
@@ -11985,7 +11985,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
-			(at -2.7 0 180)
+			(at -2.7 1.3 180)
 			(layer "F.SilkS")
 			(uuid "89913239-cc99-4e40-979e-88e21cb23409")
 			(effects
@@ -12436,7 +12436,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J7"
-			(at -3 -0.5 0)
+			(at -3 -2 0)
 			(layer "F.SilkS")
 			(uuid "07927402-19e8-4679-b926-7dbc237a3d53")
 			(effects
@@ -12735,7 +12735,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 2.5 0 180)
+			(at -0.1 -1.7 180)
 			(layer "F.SilkS")
 			(uuid "a419f592-ed43-439e-b76a-8f5d7c893e48")
 			(effects
@@ -13430,7 +13430,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 3 0 0)
+			(at 0 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "f63f4108-7e72-4409-98fe-21f3337aa2bc")
 			(effects
@@ -15384,7 +15384,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.9 180)
+			(at 3.3 -0.1 180)
 			(layer "F.SilkS")
 			(uuid "5ba2f923-5dac-4358-821a-042255881a91")
 			(effects
@@ -18150,7 +18150,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 2.5 0.1 0)
+			(at -0.5 -1.3 0)
 			(layer "F.SilkS")
 			(uuid "b1fc0cc1-b885-4f82-a803-e171dc4111e3")
 			(effects
@@ -18778,7 +18778,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J5"
-			(at -2.5 13.54 180)
+			(at -2.6 14.64 180)
 			(layer "F.SilkS")
 			(uuid "eb5892dd-419f-4f99-a0ca-76db2204b18c")
 			(effects
@@ -21845,7 +21845,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J6"
-			(at -2.5 13.7 180)
+			(at -1.9 14.9 180)
 			(layer "F.SilkS")
 			(uuid "f365417e-1216-439c-8b8a-df73dbbf7e11")
 			(effects
@@ -22147,6 +22147,591 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "ff9f4d29-1b3b-4e7a-a0ec-c674e9fa4cbc")
+	)
+	(gr_text "PC0"
+		(at 139.3 99.1 0)
+		(layer "F.SilkS")
+		(uuid "0583121c-df26-4a63-8ec3-e8ff833c7041")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PD0/Rx"
+		(at 162.1 113.7 0)
+		(layer "F.SilkS")
+		(uuid "085b6af6-9563-4846-a0b8-d4543fae84ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PD5"
+		(at 141.2 148.2 90)
+		(layer "F.SilkS")
+		(uuid "0932102e-b1f5-494e-8927-32bb5eb98bc7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PD4"
+		(at 138.5 148.2 90)
+		(layer "F.SilkS")
+		(uuid "095303c5-c762-4e10-b9e3-8a8cf905bee8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PD3"
+		(at 136 148.2 90)
+		(layer "F.SilkS")
+		(uuid "0abed63c-ea91-43a9-a0f2-730e8913727b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PC2"
+		(at 153 104.8 90)
+		(layer "F.SilkS")
+		(uuid "11301ed0-37d9-4c57-b4d2-b83917e5ab9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 143.6 148.2 90)
+		(layer "F.SilkS")
+		(uuid "1f8470bf-0587-4da0-9ca2-de16754f98c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PC4/SDA"
+		(at 161.2 118.8 0)
+		(layer "F.SilkS")
+		(uuid "20727789-d310-4b0e-b9a3-2cd90e4d4394")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MOSI"
+		(at 120.2 131.2 0)
+		(layer "F.SilkS")
+		(uuid "4d757972-1ade-4c17-a267-3e3e0ac9be77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PC3"
+		(at 150.4 104.8 90)
+		(layer "F.SilkS")
+		(uuid "510bcb79-ff65-4ff5-94e4-3b30622ad377")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND\n"
+		(at 120.9 128.5 0)
+		(layer "F.SilkS")
+		(uuid "57fd19cc-16f3-4da4-a854-3c9a088cc8e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 160.8 148.2 90)
+		(layer "F.SilkS")
+		(uuid "5ceacdf8-3912-4aa7-889d-7a3d91c119a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PD1/Tx"
+		(at 162.4 116.2 0)
+		(layer "F.SilkS")
+		(uuid "63efd9df-2fad-4b58-84bd-f122e80b49cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RST\n"
+		(at 126.5 126.4 0)
+		(layer "F.SilkS")
+		(uuid "7455a291-ff73-45b5-addb-52c38c9aaf9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3V3"
+		(at 165.2 108.7 0)
+		(layer "F.SilkS")
+		(uuid "747f99f5-5b1a-4e00-82b2-299d67913994")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PD6"
+		(at 148.6 148.1 0)
+		(layer "F.SilkS")
+		(uuid "75d46a95-eb04-48c8-88b1-41725585fc06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "INT"
+		(at 139.3 105.9 0)
+		(layer "F.SilkS")
+		(uuid "76162423-b14c-4345-84af-6058c023eb64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PB2"
+		(at 142.1 99.1 0)
+		(layer "F.SilkS")
+		(uuid "7ff724d4-64ed-40a6-abb1-0a803eb34756")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PB0"
+		(at 155.9 148.3 90)
+		(layer "F.SilkS")
+		(uuid "887630c8-043a-4b40-9951-76433413ee66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RST"
+		(at 136.2 105.9 0)
+		(layer "F.SilkS")
+		(uuid "921d14ac-7966-4c0d-9ba8-265f10a5cfbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 144.5 148.2 0)
+		(layer "F.SilkS")
+		(uuid "a06e1815-d28a-478e-887a-f8748ab50252")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PD2\n"
+		(at 133.5 148.2 90)
+		(layer "F.SilkS")
+		(uuid "a23f5f39-1ddf-4e9a-b208-4c4a181fc5af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PC0"
+		(at 158.2 104.8 90)
+		(layer "F.SilkS")
+		(uuid "ab921ff0-4233-4257-a8a2-e79255823d22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PC5/SCL"
+		(at 161.2 121.4 0)
+		(layer "F.SilkS")
+		(uuid "b155c254-9c70-41a6-9293-6226a9de8a9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 163.4 148.2 90)
+		(layer "F.SilkS")
+		(uuid "b32f6a29-4758-4038-b5c9-17ec968c2bf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PD5"
+		(at 136.4 99.1 0)
+		(layer "F.SilkS")
+		(uuid "b5c9b7ff-90d9-4fca-aa94-4af5df42d7c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SS"
+		(at 142.2 105.9 0)
+		(layer "F.SilkS")
+		(uuid "b7b9d53b-98b0-462a-9047-d564101f8e98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PB1"
+		(at 158.3 148.3 90)
+		(layer "F.SilkS")
+		(uuid "bea5b784-0050-4a2c-9736-68eb684b8c4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 121.8 133.7 0)
+		(layer "F.SilkS")
+		(uuid "ce803d24-b9eb-4faa-9f0a-b4d9b41b089e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PC1"
+		(at 155.6 104.8 90)
+		(layer "F.SilkS")
+		(uuid "d6b8cebd-8a60-4596-8c08-6f83182166e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 165.2 111.1 0)
+		(layer "F.SilkS")
+		(uuid "d7b11143-291f-41dd-9c91-738aa6297ce7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MISO"
+		(at 126.1 135.8 0)
+		(layer "F.SilkS")
+		(uuid "d9ac114f-8f32-4e66-bc4c-8647c6db7710")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3V3"
+		(at 163.3 104.7 90)
+		(layer "F.SilkS")
+		(uuid "fdae9c38-cf4b-406e-8f82-8afd93033adf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 160.7 104.8 90)
+		(layer "F.SilkS")
+		(uuid "ff5df49f-9337-4b75-b97c-59d5054d3b22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PD7"
+		(at 151.7 148.1 0)
+		(layer "F.SilkS")
+		(uuid "ffdd7ba7-a3ed-4f18-9b5b-c477fb912648")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PD5"
+		(at 162.2 137.2 0)
+		(layer "B.SilkS")
+		(uuid "01f12282-b2a5-4b55-ba9d-b812c6bad75e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SCK\n"
+		(at 153.8 132.1 0)
+		(layer "B.SilkS")
+		(uuid "19edb0d2-44c9-4c52-8b2e-4070009525bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND\n"
+		(at 162.1 129.6 0)
+		(layer "B.SilkS")
+		(uuid "28afa799-46f9-469f-90d4-eb09dc495440")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PB2\n"
+		(at 154.2 139.8 0)
+		(layer "B.SilkS")
+		(uuid "5669abbb-bb8d-482f-a4cc-80aa880cd4d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SCL\n"
+		(at 162.2 134.5 0)
+		(layer "B.SilkS")
+		(uuid "59d3e5b6-879a-4710-aac7-e11b8ba7363c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 155.2 129.7 0)
+		(layer "B.SilkS")
+		(uuid "71551729-907e-4e71-bb76-fb30670b8690")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SDA\n"
+		(at 162.3 132.1 0)
+		(layer "B.SilkS")
+		(uuid "87b11021-032c-4008-a6bc-36a3252d5679")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MISO\n"
+		(at 153.7 134.6 0)
+		(layer "B.SilkS")
+		(uuid "8d954249-c938-495c-b458-f0012e0dd4cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PC0"
+		(at 162.3 139.7 0)
+		(layer "B.SilkS")
+		(uuid "c787b0e5-48a9-4ba9-8148-9264c46911fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MOSI\n"
+		(at 153.7 137.2 0)
+		(layer "B.SilkS")
+		(uuid "f1cc6b02-766a-4289-b997-dded05d0ee75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(dimension
 		(type orthogonal)
